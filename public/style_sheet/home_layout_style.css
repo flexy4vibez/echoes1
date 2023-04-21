@@ -1,0 +1,22 @@
+.nav_background 
+{
+    background-color: #13131A;
+}
+
+.top_nav_sticky
+{
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+}
+
+.text_orange
+{
+    color: #FF7F50;
+}
+
+.background_orange
+{
+    background-color: #FF7F50;
+}
+
