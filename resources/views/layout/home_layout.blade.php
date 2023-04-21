@@ -56,7 +56,7 @@
     <div class="col-sm-3">
 
         <div class="col-sm-12 left_nav_sticky1" style="position: sticky; top:10%;">
-            <img class="img-fluid" src="images/left_nav1111.png" alt="artist">
+            <img class="img-fluid" src="images/left_nav1.png" alt="artist">
         </div>
 
         <div class="col-sm-12 nav_background" style="position: sticky; top:57%;">
