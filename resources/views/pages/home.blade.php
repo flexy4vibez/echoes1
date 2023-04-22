@@ -15,8 +15,8 @@
 
     {{-- Recent Uploads Div --}}
     <div class="col-sm-12 row justify-content-between text-white mt-3">
-        <div class="col-sm-3"><h3>Recent Uploads</h3></div>
-        <div class="col-sm-3"><h3>SEE ALL</h3></div>
+        <div class="col-sm-3"><h4 style="font-family: 'Pacifico', cursive;">Recent Uploads</h4></div>
+        <div class="col-sm-3"><h4>SEE ALL</h4></div>
     </div>
     
     {{-- List of Albums --}}
@@ -47,68 +47,33 @@
     
 
     {{-- Artists --}}
-    <div class="col-sm-12 row justify-content-between text-white">
-        <div class="col-sm-3"><h3>Artists</h3></div>
-        <div class="col-sm-3"><h3>SEE ALL</h3></div>
+    <div class="col-sm-12 row justify-content-between text-white" style="position: relative; top:-16%;">
+        <div class="col-sm-3"><h4 style="font-family: 'Pacifico', cursive;">Artists</h4></div>
+        <div class="col-sm-3"><h4>SEE ALL</h4></div>
     </div>
     {{-- Row 2 Artists --}}
-    <div class="col-sm-12 row justify-content-between text_orange mt-3">
+    <div class="col-sm-12 row justify-content-between text_orange mt-3" style="position: relative; top:-16%;">
 
         <div class="col-sm-3">
-            <img src="images/album_background.png" alt="" class="img-fluid">  
+            <img src="images/artist1.png" alt="" class="img-fluid">  
         </div>
 
         <div class="col-sm-3">
-            <img src="images/album_background.png" alt="" class="img-fluid"> 
+            <img src="images/artist2.png" alt="" class="img-fluid"> 
         </div>
 
         <div class="col-sm-3">
-            <img src="images/album_background.png" alt="" class="img-fluid">  
+            <img src="images/artist3.png" alt="" class="img-fluid">  
         </div>
 
         <div class="col-sm-3">
-            <img src="images/album_background.png" alt="" class="img-fluid">  
-        </div>
-
-    </div>
-
-
-    {{-- Row 2 --}}
-    <div class="col-sm-12 row justify-content-between text_orange mt-3">
-
-        <div class="col-sm-3">
-            <h1>My Album</h1>
-            <h2>My Album</h2>
-            <h3>My Album</h3>
-            <h4>My Album</h4>
-            <h5>My Album</h5>
-        </div>
-
-        <div class="col-sm-3">
-            <h1>My Album</h1>
-            <h2>My Album</h2>
-            <h3>My Album</h3>
-            <h4>My Album</h4>
-            <h5>My Album</h5>
-        </div>
-
-        <div class="col-sm-3">
-            <h1>My Album</h1>
-            <h2>My Album</h2>
-            <h3>My Album</h3>
-            <h4>My Album</h4>
-            <h5>My Album</h5>
-        </div>
-
-        <div class="col-sm-3">
-            <h1>My Album</h1>
-            <h2>My Album</h2>
-            <h3>My Album</h3>
-            <h4>My Album</h4>
-            <h5>My Album</h5>
+            <img src="images/artist4.png" alt="" class="img-fluid">  
         </div>
 
     </div>
+
+
+    
     
 
 </body>

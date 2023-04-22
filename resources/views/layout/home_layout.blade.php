@@ -8,13 +8,16 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style_sheet/home_layout_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 </head>
-<body class="container-fluid bg-secondary px-0">
+<body class="container-fluid body_background px-0">
 
 {{-- Top Navbar --}}
 <div class="col-sm-12 top_nav_sticky">
 
-    <nav class="navbar navbar-expand-lg nav_background">
+    <nav class="navbar navbar-expand-md nav_background">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="images/favicon.png" alt="echoes logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

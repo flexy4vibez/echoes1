@@ -1,3 +1,8 @@
+.body_background 
+{
+    background-color: #666666;
+}
+
 .nav_background 
 {
     background-color: #13131A;
@@ -24,5 +29,11 @@
 {
     position: relative;
     top:-62.5%;
+}
+
+.artist_position
+{
+    position: relative;
+    top:-50%;
 }
 
