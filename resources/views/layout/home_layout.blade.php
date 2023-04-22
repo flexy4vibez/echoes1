@@ -36,11 +36,11 @@
 
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active fw-bold" aria-current="page" href="#"><p class="text_orange">Sign In / Sign Up</p></a>
+                    <a class="nav-link active fw-bold" aria-current="page" href="#"><p class="text_orange mt-2">Sign In / Sign Up</p></a>
                 </li>
                 
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><button class="btn background_orange text-white fw-bold">Upload</button></a>
+                  <a class="nav-link active" aria-current="page" href="#"><button class="btn background_orange text-white fw-bold rounded-pill">Upload</button></a>
                 </li>
             </ul>
 
@@ -56,7 +56,7 @@
 <div class="col-sm-12 row justify-content-between">
 
     {{-- Left --}}
-    <div class="col-sm-3">
+    <div class="col-sm-3 px-0">
 
         <div class="col-sm-12 left_nav_sticky1" style="position: sticky; top:10%;">
             <img class="img-fluid" src="images/left_nav1.png" alt="artist">

@@ -51,6 +51,7 @@
         <div class="col-sm-3"><h4 style="font-family: 'Pacifico', cursive;">Artists</h4></div>
         <div class="col-sm-3"><h4>SEE ALL</h4></div>
     </div>
+
     {{-- Row 2 Artists --}}
     <div class="col-sm-12 row justify-content-between text_orange mt-3" style="position: relative; top:-16%;">
 
@@ -72,6 +73,18 @@
 
     </div>
 
+
+    {{-- Footer --}}
+    <div class="container-fluid row justify-content-between footer_background text-white px-o" style="position: relative; top:-16%;">
+        <div class="col-sm-4">
+            <p class="py-2" style="font-family: 'Pacifico', cursive;">welcome to echoes</p>
+            <p class="pb-2">Sign up and get unlimited songs</p>
+        </div>
+            
+        <div class="col-sm-2">
+            <button class="btn background_orange text-white mt-4 rounded-pill">Sign up free</button>
+        </div>
+    </div>
 
     
     
