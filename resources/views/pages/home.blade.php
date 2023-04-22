@@ -26,26 +26,28 @@
         <div class="col-sm-3">
             <img src="images/album_background.png" alt="" class="img-fluid">
             <img src="images/track1.png" alt="" class="img-fluid track_position">
-             
         </div>
 
         <div class="col-sm-3">
             <img src="images/album_background.png" alt="" class="img-fluid"> 
+            <img src="images/track2.png" alt="" class="img-fluid track_position">
         </div>
 
         <div class="col-sm-3">
-            <img src="images/album_background.png" alt="" class="img-fluid">  
+            <img src="images/album_background.png" alt="" class="img-fluid">
+            <img src="images/track3.png" alt="" class="img-fluid track_position">
         </div>
 
         <div class="col-sm-3">
-            <img src="images/album_background.png" alt="" class="img-fluid">  
+            <img src="images/album_background.png" alt="" class="img-fluid">
+            <img src="images/track4.png" alt="" class="img-fluid track_position">
         </div>
 
     </div>
-    {{-- style="background-image: url('images/album_background.png'); background-repeat:no-repeat; background-size:cover;" --}}
+    
 
     {{-- Artists --}}
-    <div class="col-sm-12 row justify-content-between text-white mt-3">
+    <div class="col-sm-12 row justify-content-between text-white">
         <div class="col-sm-3"><h3>Artists</h3></div>
         <div class="col-sm-3"><h3>SEE ALL</h3></div>
     </div>
