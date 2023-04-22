@@ -33,11 +33,11 @@
 
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-light rounded-circle fw-bold text_orange">Z</button></a>
+                    <a class="nav-link active fw-bold" aria-current="page" href="#"><p class="text_orange">Sign In / Sign Up</p></a>
                 </li>
                 
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"><button class="btn btn-danger fw-bold">Upload</button></a>
+                  <a class="nav-link active" aria-current="page" href="#"><button class="btn background_orange text-white fw-bold">Upload</button></a>
                 </li>
             </ul>
 
@@ -59,15 +59,15 @@
             <img class="img-fluid" src="images/left_nav1.png" alt="artist">
         </div>
 
-        <div class="col-sm-12 nav_background" style="position: sticky; top:57%;">
+        <div class="col-sm-12 nav_background text-center text-white" style="position: sticky; top:57%;">
 
         
-            <p class="text-center text-white fs-5">Home</p>
-            <p class="text-center text-white fs-5">Genres</p>
-            <p class="text-center text-white fs-5">Top Albums</p>
-            <p class="text-center text-white fs-5">Friends</p>
-            <p class="text-center text-white fs-5">Liked Songs</p>
-            <p class="text-center text-white fs-6">Terms and Conditions</p>
+            <p class="fs-5">Home</p>
+            <p class="fs-5">Genres</p>
+            <p class="fs-5">Top Albums</p>
+            <p class="fs-5">Friends</p>
+            <p class="fs-5">Liked Songs</p>
+            <p class="fs-6">Terms and Conditions</p>
         
 
         </div>
