@@ -11,4 +11,10 @@ class page_controller extends Controller
         $title = 'Welcome to Echoes';
         return view('pages.home')->with('title', $title);
     }
+
+    public function sign_in()
+    {
+        $title = 'Sign In and Start Listening';
+        return view('pages.sign_in')->with('title', $title);
+    }
 }

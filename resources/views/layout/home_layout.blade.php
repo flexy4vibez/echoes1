@@ -36,8 +36,12 @@
 
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active fw-bold" aria-current="page" href="#"><p class="text_orange mt-2">Sign In / Sign Up</p></a>
+                    <a class="nav-link active fw-bold" aria-current="page" href="{{url('/sign_in')}}"><p class="text_orange mt-2">Sign In</p></a>
                 </li>
+
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold" aria-current="page" href="{{url('/sign_up')}}"><p class="text_orange mt-2">Sign Up</p></a>
+              </li>
                 
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#"><button class="btn background_orange text-white fw-bold rounded-pill">Upload</button></a>

@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [page_controller::class, 'home']);
+
+Route::get('/sign_in', [page_controller::class, 'sign_in']);

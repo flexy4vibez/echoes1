@@ -30,3 +30,23 @@
     background-color: #973224;
 }
 
+.background_blue
+{
+    background-color: #253E7E;
+}
+
+.line
+{
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid black; 
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.line_text
+{
+    background:white; 
+    padding:0 10px;
+}
+
