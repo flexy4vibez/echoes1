@@ -17,4 +17,10 @@ class page_controller extends Controller
         $title = 'Sign In and Start Listening';
         return view('pages.sign_in')->with('title', $title);
     }
+
+    public function sign_up()
+    {
+        $title = 'Sign Up and Start Listening';
+        return view('pages.sign_up')->with('title', $title);
+    }
 }

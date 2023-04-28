@@ -25,24 +25,24 @@
             </div>
         </div>
 
-        {{-- Sign in and start listening --}}
+        {{-- Sign up and start listening --}}
         <div class="col-12 row justify-content-center mt-4">
             <div class="col-sm-8 text-center">
-                <h2>Sign in and start listening</h2>
+                <h2>Sign up for free and start listening</h2>
             </div>
         </div>
 
         {{-- Sign in with Facebook --}}
         <div class="col-12 row justify-content-center mt-4">
             <div class="col-sm-4 d-grid">
-                <a href="" class="btn background_blue btn-outline-primary rounded-pill text-white"><i class="bi bi-facebook me-3"></i><span class="fw-bold">Sign in with Facebook</span></a>
+                <a href="" class="btn background_blue btn-outline-primary rounded-pill text-white"><i class="bi bi-facebook me-3"></i><span class="fw-bold">Sign up with Facebook</span></a>
             </div>
         </div>
 
         {{-- Sign in with Google --}}
         <div class="col-12 row justify-content-center mt-4">
             <div class="col-sm-4 d-grid">
-                <a href="" class="btn btn-white border border-2 border-dark rounded-pill"><img class="me-3 mb-1" src="images/google.png" alt=""><span class="fw-bold">Sign in with Google</span></a>
+                <a href="" class="btn btn-white border border-2 border-dark rounded-pill"><img class="me-3 mb-1" src="images/google.png" alt=""><span class="fw-bold">Continue with Google</span></a>
             </div>
         </div>
 
@@ -56,7 +56,7 @@
         {{-- Sign in with Your Email Address --}}
         <div class="col-12 row justify-content-center mt-4">
             <div class="col-sm-4 text-center">
-                <h4>Sign in with your email Address</h4>
+                <h4>Sign up with your email address</h4>
             </div>
         </div>
 
@@ -65,14 +65,18 @@
             <div class="col-sm-4">
                 <form action="" method="">
 
-                    <label for="" class="form-label"><h5>Email</h5></label>
+                    <label for="" class="form-label"><h5>What's your email</h5></label>
                     <input type="text" name="" id="" class="form-control" placeholder="Enter your email">
 
-                    <label for="" class="form-label mt-2"><h5>Password</h5></label>
-                    <input type="password" name="" id="" class="form-control" placeholder="Enter your password">
+                    <label for="" class="form-label mt-2"><h5>Create a password</h5></label>
+                    <input type="password" name="" id="" class="form-control" placeholder="Create a password">
+
+                    <label for="" class="form-label mt-2"><h5>What should we call you?</h5></label>
+                    <input type="text" name="" id="" class="form-control" placeholder="Enter a profile name">
+                    <p>This appears on your profile</p>
 
                     <div class="col-12 text-center">
-                        <button class="btn btn-outline-danger background_orange text-white rounded-pill mt-2" type="submit">Sign in</button>
+                        <button class="btn btn-outline-danger background_orange text-white rounded-pill mt-2" type="submit">Sign up</button>
                     </div>
 
                 </form>
@@ -82,9 +86,9 @@
         {{-- Got no account yet? --}}
         <div class="col-12 row justify-content-center mt-4 mb-4">
             <div class="col-sm-4">
-                <h3 class="line"><span class="line_text">Got no account yet?</span></h3>
+                <h3 class="line"><span class="line_text">Got an account already?</span></h3>
                 <div class="col-12 text-center">
-                    <a href="{{url('/sign_up')}}" class="btn btn-outline-danger background_orange text-white rounded-pill mt-2">Register Here</a>
+                    <a href="{{url('/sign_in')}}" class="btn btn-outline-danger background_orange text-white rounded-pill mt-2">Sign in here</a>
                 </div>
             </div>
         </div>
