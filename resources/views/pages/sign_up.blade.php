@@ -85,8 +85,8 @@
 
         {{-- Got no account yet? --}}
         <div class="col-12 row justify-content-center mt-4 mb-4">
-            <div class="col-sm-4">
-                <h3 class="line"><span class="line_text">Got an account already?</span></h3>
+            <div class="col-lg-4">
+                <h3 class="line"><span class="line_text">Got account already?</span></h3>
                 <div class="col-12 text-center">
                     <a href="{{url('/sign_in')}}" class="btn btn-outline-danger background_orange text-white rounded-pill mt-2">Sign in here</a>
                 </div>

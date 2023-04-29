@@ -50,3 +50,18 @@
     padding:0 10px;
 }
 
+.z_index_1
+{
+    z-index:1;
+}
+
+.z_index_2
+{
+    z-index:5;
+}
+
+.z_index_3
+{
+    z-index:3;
+}
+

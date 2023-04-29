@@ -24,8 +24,9 @@
     <div class="col-sm-12 row justify-content-between mb-4">
 
         <div class="col-sm-3">
-            <img src="images/track1.png" alt="" class="img-fluid mt-3">
-            <img src="images/album_background2.png" alt="" class="img-fluid">
+            <img src="images/track1.png" alt="" class="img-fluid mt-3" style="z-index:0;">
+            <img src="images/album_background2.png" alt="" class="img-fluid" style="z-index:0;">
+            <div class="text-success carousel-caption" style="z-index:2;"><h2>Testing testing testing</h2></div>
         </div>
 
         <div class="col-sm-3"> 
@@ -82,7 +83,7 @@
         </div>
             
         <div class="col-sm-2">
-            <button class="btn background_orange text-white mt-4 rounded-pill">Sign up free</button>
+            <a href="{{url('sign_up')}}" class="btn btn-outline-danger background_orange text-white mt-4 rounded-pill">Sign up free</a>
         </div>
     </div>
 

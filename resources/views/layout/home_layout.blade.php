@@ -63,7 +63,25 @@
     <div class="col-sm-3 px-0">
 
         <div class="col-sm-12 left_nav_sticky1" style="position: sticky; top:10%;">
-            <img class="img-fluid" src="images/left_nav1.png" alt="artist">
+
+          {{-- Carousel --}}
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/left_nav1.png" class="d-block w-100 img-fluid" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/left_nav2.png" class="d-block w-100 img-fluid" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/left_nav3.png" class="d-block w-100 img-fluid" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="images/left_nav4.png" class="d-block w-100 img-fluid" alt="">
+              </div>
+            </div>
+          </div>
+
         </div>
 
         <div class="col-sm-12 nav_background text-center text-white" style="position: sticky; top:57%;">
