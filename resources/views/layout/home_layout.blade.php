@@ -7,6 +7,7 @@
     <title>{{$title}}</title>
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style_sheet/home_layout_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,16 +85,16 @@
 
         </div>
 
-        <div class="col-sm-12 nav_background text-center text-white" style="position: sticky; top:57%;">
+        <div class="col-sm-12 nav_background text-white fs-5 fw-bold" style="position: sticky; top:57%;">
 
-        
-            <p class="fs-5">Home</p>
-            <p class="fs-5">Genres</p>
-            <p class="fs-5">Top Albums</p>
-            <p class="fs-5">Friends</p>
-            <p class="fs-5">Liked Songs</p>
+          <div class="ms-5">
+            <p> <i class="bi bi-house-door"></i> Home</p>
+            <p> <i class="bi bi-music-note"></i> Genres</p>
+            <p> <i class="bi bi-music-note-beamed"></i> Top Albums</p>
+            <p> <i class="bi bi-people-fill"></i> Friends</p>
+            <p> <i class="bi bi-heart-fill"></i> Liked Songs</p>
             <p class="fs-6">Terms and Conditions</p>
-        
+          </div>
 
         </div>
 
