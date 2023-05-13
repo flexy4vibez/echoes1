@@ -63,13 +63,13 @@
         {{-- Sign in Form --}}
         <div class="col-12 row justify-content-center mt-4">
             <div class="col-sm-4">
-                <form action="" method="">
-
+                <form action="{{route('sign_in_post')}}" method="post">
+                    @csrf
                     <label for="" class="form-label"><h5>Email</h5></label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Enter your email">
+                    <input type="email" name="email" id="" class="form-control" placeholder="Enter your email">
 
                     <label for="" class="form-label mt-2"><h5>Password</h5></label>
-                    <input type="password" name="" id="" class="form-control" placeholder="Enter your password">
+                    <input type="password" name="password" id="" class="form-control" placeholder="Enter your password">
 
                     <div class="col-12 text-center">
                         <button class="btn btn-outline-danger background_orange text-white rounded-pill mt-2" type="submit">Sign in</button>

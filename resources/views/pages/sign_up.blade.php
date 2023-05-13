@@ -60,19 +60,19 @@
             </div>
         </div>
 
-        {{-- Sign in Form --}}
+        {{-- Sign up Form --}}
         <div class="col-12 row justify-content-center mt-4">
             <div class="col-sm-4">
-                <form action="" method="">
-
+                <form action="{{route('sign_up_post')}}" method="post">
+                    @csrf
                     <label for="" class="form-label"><h5>What's your email</h5></label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Enter your email">
+                    <input type="email" name="email" id="" class="form-control" placeholder="Enter your email">
 
                     <label for="" class="form-label mt-2"><h5>Create a password</h5></label>
-                    <input type="password" name="" id="" class="form-control" placeholder="Create a password">
+                    <input type="password" name="password" id="" class="form-control" placeholder="Create a password">
 
                     <label for="" class="form-label mt-2"><h5>What should we call you?</h5></label>
-                    <input type="text" name="" id="" class="form-control" placeholder="Enter a profile name">
+                    <input type="text" name="name" id="" class="form-control" placeholder="Enter a profile name">
                     <p>This appears on your profile</p>
 
                     <div class="col-12 text-center">
@@ -83,7 +83,7 @@
             </div>
         </div>
 
-        {{-- Got no account yet? --}}
+        {{-- Got account already? --}}
         <div class="col-12 row justify-content-center mt-4 mb-4">
             <div class="col-lg-4">
                 <h3 class="line"><span class="line_text">Got account already?</span></h3>
