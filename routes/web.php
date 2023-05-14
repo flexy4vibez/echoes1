@@ -23,3 +23,5 @@ Route::get('/sign_up', [page_controller::class, 'sign_up_get'])->name('sign_up_g
 Route::post('/sign_up', [page_controller::class, 'sign_up_post'])->name('sign_up_post');
 
 Route::post('/sign_in_post', [page_controller::class, 'sign_in_post'])->name('sign_in_post');
+
+Route::get('/logout', [page_controller::class, 'logout'])->name('logout');

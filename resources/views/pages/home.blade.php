@@ -1,5 +1,13 @@
 @extends('layout.home_layout')
 
+@section('title')
+    @auth
+        {{auth()->user()->name}}
+        @else
+        Welcome to Echoes
+    @endauth
+@endsection
+
 @section('whole_page')
     
 <!DOCTYPE html>
@@ -8,7 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{$title}}</title>
+    <title></title>
     <link rel="stylesheet" href="style_sheet/home_layout_style.css">
 </head>
 <body>
@@ -243,6 +251,9 @@
 
 
     {{-- Footer --}}
+    @auth
+    
+    @else
     <div class="container-fluid row justify-content-between footer_background text-white px-o">
         <div class="col-sm-4">
             <p class="py-2" style="font-family: 'Pacifico', cursive;">welcome to echoes</p>
@@ -253,6 +264,7 @@
             <a href="{{url('sign_up')}}" class="btn btn-outline-danger background_orange text-white mt-4 rounded-pill">Sign up free</a>
         </div>
     </div>
+    @endauth
 
     
     

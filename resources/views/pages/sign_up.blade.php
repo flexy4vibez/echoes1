@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>{{$title}}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style_sheet/home_layout_style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -60,6 +60,34 @@
             </div>
         </div>
 
+        {{-- Display Errors --}}
+        <div class="col-12 row justify-content-center">
+        <div class="col-sm-4">
+            @if ($errors->any())
+
+                <div class="col-12">
+                    @foreach ($errors->all() as $error)
+                    <div class="col-12 alert alert-danger">
+                    {{$error}}
+                    </div>
+                    @endforeach
+                </div>   
+            @endif
+
+            @if (session()->has('error'))
+            <div class="col-12 alert alert-danger">
+            {{session('error')}}
+            </div>
+            @endif
+
+            @if (session()->has('success'))
+            <div class="col-12 alert alert-success">
+            {{session('success')}}
+            </div>
+            @endif
+        </div>
+        </div>
+
         {{-- Sign up Form --}}
         <div class="col-12 row justify-content-center mt-4">
             <div class="col-sm-4">
@@ -72,7 +100,7 @@
                     <input type="password" name="password" id="" class="form-control" placeholder="Create a password">
 
                     <label for="" class="form-label mt-2"><h5>What should we call you?</h5></label>
-                    <input type="text" name="name" id="" class="form-control" placeholder="Enter a profile name">
+                    <input type="text" name="name" maxlength="10" id="" class="form-control" placeholder="Enter a profile name">
                     <p>This appears on your profile</p>
 
                     <div class="col-12 text-center">
